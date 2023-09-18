@@ -8,6 +8,6 @@ We are given a data set that contains 14 attributes {𝑥1, 𝑥2, ... , 𝑥14}
 
 The neural network is a feed-forward neural network with 14 input nodes, 2 hidden layers with 100 nodes and 40 nodes, and 4 output nodes.
 
-![Neural Network Architecture](img/architecture.png)
+<img src="img/architecture.png" alt="Neural Network Architecture" width="300">
 
 It has cross-entropy cost function on a Softmax function for training. All but the last fully connected layers have ReLU as the activation function.
